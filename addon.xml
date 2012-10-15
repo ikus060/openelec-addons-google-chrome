@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="web.browser.google.chrome"
+       name="Google Chrome"
+       version="0.1"
+       provider-name="openelec.tv">
+  <requires>
+    <import addon="os.openelec.tv" version="2.0"/>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Google Chrome</summary>
+    <description>
+TODO Put some description in this area.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
